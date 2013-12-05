@@ -57,14 +57,13 @@ Basic Usage:
 
 * Create the view for the email and save it to `/views/mailer/class_name/method_name.php` (Minus the Mailer_)
 
-<pre>
-```
+
+```html
     <p>Welcome <? = $user['name'];
         ?>,</p>
     <p>We are glad you signed up for our web app.  Hope you enjoy.</p>
     <p>The Team</p>
-``` 
-</pre>
+```
 
 * 4. Use the Mailer_User class in one of your controllers
 
