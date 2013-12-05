@@ -8,7 +8,7 @@ Basic Usage:
 -------------------------------
 * 1. Customize the congfiguration setting in /config/mailer.php
 
-
+<pre>
     <?php
     return array
         (
@@ -28,7 +28,7 @@ Basic Usage:
         )
     );
     ?>
-
+</pre>
 
 
 * 2. Create a class that extends the Mailer class and save it to /classes/mailer/class_name.php (Minus the Mailer_)
