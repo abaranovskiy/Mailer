@@ -6,7 +6,7 @@ Kohana 3.3 Mailer module
 
 Basic Usage:
 -------------------------------
-* 1. Customize the congfiguration setting in /config/mailer.php
+* Customize the congfiguration setting in /config/mailer.php
 
 <pre>
     return array
@@ -29,7 +29,7 @@ Basic Usage:
 </pre>
 
 
-* 2. Create a class that extends the Mailer class and save it to /classes/mailer/class_name.php (Minus the Mailer_)
+* Create a class that extends the Mailer class and save it to /classes/mailer/class_name.php (Minus the Mailer_)
 
 
 <pre>
@@ -55,15 +55,16 @@ Basic Usage:
 
 
 
-* 3. Create the view for the email and save it to /views/mailer/class_name/method_name.php (Minus the Mailer_)
+* Create the view for the email and save it to `/views/mailer/class_name/method_name.php` (Minus the Mailer_)
+
+<pre>
 ```
-<code>
     <p>Welcome <? = $user['name'];
         ?>,</p>
     <p>We are glad you signed up for our web app.  Hope you enjoy.</p>
     <p>The Team</p>
-</code>
 ``` 
+</pre>
 
 * 4. Use the Mailer_User class in one of your controllers
 
