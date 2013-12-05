@@ -8,7 +8,7 @@ Basic Usage:
 -------------------------------
 * Customize the congfiguration setting in /config/mailer.php
 
-<pre>
+```PHP
     return array
         (
         'production' => array(
@@ -26,13 +26,13 @@ Basic Usage:
             'transport' => 'smtp'
         )
     );
-</pre>
+```
 
 
 * Create a class that extends the Mailer class and save it to /classes/mailer/class_name.php (Minus the Mailer_)
 
 
-<pre>
+```PHP
     defined('SYSPATH') or die('No direct script access.');
     class Mailer_User extends Mailer
     {
@@ -51,7 +51,7 @@ Basic Usage:
             $this->data = $args;
         }
     }
-</pre>
+```
 
 
 
@@ -67,7 +67,7 @@ Basic Usage:
 
 * 4. Use the Mailer_User class in one of your controllers
 
-<pre>
+```PHP
     public function action_submit()
     {
         $data = array(
@@ -91,5 +91,5 @@ Basic Usage:
                 ->send();
     }
     
-</pre>
+```
 
