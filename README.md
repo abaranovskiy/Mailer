@@ -7,7 +7,7 @@ Kohana 3.3 Mailer module
 Basic Usage:
 -------------------------------
 * 1. Customize the congfiguration setting in /config/mailer.php
-```
+<code>
     <?php
     return array
         (
@@ -27,11 +27,11 @@ Basic Usage:
         )
     );
     ?>
-```
+</code>
 
 
 * 2. Create a class that extends the Mailer class and save it to /classes/mailer/class_name.php (Minus the Mailer_)
-```
+```php
     <?php
     defined('SYSPATH') or die('No direct script access.');
 
