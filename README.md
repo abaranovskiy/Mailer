@@ -6,7 +6,7 @@ Kohana 3.3 Mailer module
 
 Basic Usage:
 -------------------------------
-* Customize the congfiguration setting in /config/mailer.php
+* Customize the congfiguration setting in `/config/mailer.php`
 
 ```PHP
     return array
@@ -29,7 +29,7 @@ Basic Usage:
 ```
 
 
-* Create a class that extends the Mailer class and save it to /classes/mailer/class_name.php (Minus the Mailer_)
+* Create a class that extends the Mailer class and save it to `/classes/mailer/class_name.php` (Minus the `Mailer_`)
 
 
 ```PHP
