@@ -33,7 +33,7 @@ Basic Usage:
 
 
 ```PHP
-    defined('SYSPATH') or die('No direct script access.');
+    <?php defined('SYSPATH') or die('No direct script access.');
     class Mailer_User extends Mailer
     {
         public function before()
