@@ -1,7 +1,13 @@
-= Basic Usage:
+Kohana 3.3 Mailer module
+================================
+* Author: Alexander Baranovskiy
+* Original: [Here][https://github.com/themusicman/Mailer]
 
+
+Basic Usage:
+-------------------------------
 * 1. Customize the congfiguration setting in /config/mailer.php
-<code>
+```
     <?php
     return array
         (
@@ -21,11 +27,11 @@
         )
     );
     ?>
-</code>
+```
 
 
 * 2. Create a class that extends the Mailer class and save it to /classes/mailer/class_name.php (Minus the Mailer_)
-<code>
+```
     <?php
     defined('SYSPATH') or die('No direct script access.');
 
@@ -50,18 +56,18 @@
 
     }
     ?>
-</code>
+```
 
 * 3. Create the view for the email and save it to /views/mailer/class_name/method_name.php (Minus the Mailer_)
-<code>
+```
     <p>Welcome <? = $user['name'];
         ?>,</p>
     <p>We are glad you signed up for our web app.  Hope you enjoy.</p>
     <p>The Team</p>
-</code>
+```
 
 * 4. Use the Mailer_User class in one of your controllers
-<code>
+```
     <?php
     public function action_submit()
     {
@@ -91,4 +97,4 @@
                 ->send();
     }
     ?>
-</code>
+```
