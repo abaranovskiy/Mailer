@@ -1,7 +1,7 @@
 Kohana 3.3 Mailer module
 ================================
 * Author: Alexander Baranovskiy
-* Original: [Here][https://github.com/themusicman/Mailer]
+* Original: https://github.com/themusicman/Mailer
 
 
 Basic Usage:
