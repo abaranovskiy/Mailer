@@ -55,7 +55,7 @@ Basic Usage:
 
 
 
-* Create the view for the email and save it to `/views/mailer/class_name/method_name.php` (Minus the Mailer_)
+* Create the view for the email and save it to `/views/mailer/class_name/method_name.php` (Minus the `Mailer_`)
 
 
 ```html
